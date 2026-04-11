@@ -7,7 +7,7 @@ public class Main {
         Figura rectangulo = new Rectangulo(4, 6);
 
         circulo.mostrarTipo();
-        System.out.println("Área del circulado: " + circulo.calcularArea());
+        System.out.println("Área del circulo: " + circulo.calcularArea());
 
         rectangulo.mostrarTipo();
         System.out.println("Área del rectángulo: " + rectangulo.calcularArea());
