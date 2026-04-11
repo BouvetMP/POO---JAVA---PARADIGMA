@@ -1,0 +1,26 @@
+package agregacion;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Equipos {
+    
+    private String nombre;
+    private List<Jugador>jugadores;
+
+    public Equipos(String nombre){
+        this.nombre = nombre;
+        this.jugadores = new ArrayList<>();
+    }
+
+    public void agregarJugador(Jugador jugador){
+        jugadores.add(jugador);
+    }
+
+    public void mostrarJugadores(){
+        System.out.println("Equipo: " + nombre);
+        for(Jugador jugador: jugadores){
+            System.out.println("-" + jugador.getNombre());
+        }
+    }
+}
