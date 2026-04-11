@@ -1,3 +1,5 @@
+package encapsulacion;
+
 public class CuentaBancaria {
 
     private String titular;
