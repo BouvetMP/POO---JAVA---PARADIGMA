@@ -25,11 +25,10 @@ Es el punto de arraque del programa con el fin de demostrar el paradigma.
 3. Ejecutar con: java herencia.Main
 
 ## Salida esperada
-Nombre: Maria
+- Nombre: Maria
 Salario: 4500000.0
 Área: Tecnologia
-------
-Nombre: Carlos
+- Nombre: Carlos
 Salario: 3800000.0
 Lenguaje principal: Java
 
